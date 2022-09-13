@@ -1,13 +1,15 @@
 # VIX-Data-Engineer
 Analyzing the amount of attrited customers in a credit card database using Microsoft SQL Server and Tableau.
 
+## Table of content  
+
 ## Business Objective  
 1. Identifying the characteristics of customers who are late in paying credit arrears  
 2. Visualizing the characteristics of customers who are late in paying credit arrears  
 3. Analyzing the biggest factors that causes customers to be in arrears  
 
 ## Exploration  
-1. Creating the view ClientData using JOIN to join databases  
+1. Creating the view ClientData using JOIN to join tables  
 ```sql
 CREATE VIEW ClientData
 AS
@@ -16,5 +18,6 @@ AS
 GO
 ```  
 Result:  
-![image](https://user-images.githubusercontent.com/96785017/189926743-6b92b7ad-5157-4392-a12c-448350f94f9b.png)
+![image](https://user-images.githubusercontent.com/96785017/189926743-6b92b7ad-5157-4392-a12c-448350f94f9b.png)  
+2. 
 
