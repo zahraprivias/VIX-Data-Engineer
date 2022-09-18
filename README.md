@@ -70,7 +70,7 @@ Result:
 
 ## Conclusion and Solution  
 1. **Income category and age** are some of the factors that can determine which customers will continue using credit loan.  
-2. Auto screening can be made during the condition in which a customer registers with the data of **income category less than $40 thousand and is around 43-52 years old**, they can be considered as a **customer profile with strong potential of being late in paying arrears**
+2. Auto screening can be made during the condition in which a customer registers with the data of **income category less than $40 thousand and is around 43-52 years old**, they can be considered as a **customer profile with strong potential of being late in paying arrears**.
 
 
 
