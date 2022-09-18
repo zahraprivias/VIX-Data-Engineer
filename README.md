@@ -26,7 +26,7 @@ SELECT TOP 10 status AS Status, Customer_Age AS Age, [Total] = COUNT(Gender)
 FROM ClientData
 WHERE status LIKE 'Attrited Customer' AND
 Gender LIKE 'M'
-GROUP BY status, Customer_Age, Gender
+GROUP BY status, Customer_Age
 ORDER BY Total DESC
 ```  
 Results:  
@@ -37,11 +37,24 @@ SELECT TOP 10 status AS Status, Customer_Age AS Age, [Total] = COUNT(Gender)
 FROM ClientData
 WHERE status LIKE 'Attrited Customer' AND
 Gender LIKE 'F'
-GROUP BY status, Customer_Age, Gender
+GROUP BY status, Customer_Age
 ORDER BY Total DESC
 ```  
 Result:  
 <img width="147" alt="image" src="https://user-images.githubusercontent.com/96785017/190904597-4a910a3e-6394-4385-a91a-341d058268ad.png">  
-3. 
+3. Identifying the amount of attrited customers according to income category  
+```sql
+SELECT Income_Category, [Total Customer] = COUNT(CLIENTNUM)
+FROM ClientData
+WHERE status LIKE 'Attrited Customer'
+GROUP BY Income_Category
+ORDER BY [Total Customer] DESC
+```  
+Result:  
+<img width="161" alt="image" src="https://user-images.githubusercontent.com/96785017/190905092-a4c7447b-8b20-48c6-a8e4-b1c84a19527e.png">  
+
+## Visualization
+
+
 
 
