@@ -33,7 +33,7 @@ Gender LIKE 'M'
 GROUP BY status, Customer_Age
 ORDER BY Total DESC
 ```  
-Results:  
+Result:  
 <img width="145" alt="image" src="https://user-images.githubusercontent.com/96785017/190904692-07798a60-6b83-4fa5-8d4b-42bbe0c23003.png">  
 Female Customers  
 ```sql
