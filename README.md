@@ -19,5 +19,29 @@ GO
 ```  
 Result:  
 ![image](https://user-images.githubusercontent.com/96785017/189926743-6b92b7ad-5157-4392-a12c-448350f94f9b.png)  
-2. 
+2. Identifying how many customers (Top 10) will be attrited according to gender divided by age groups  
+Male Customers  
+```sql
+SELECT TOP 10 status AS Status, Customer_Age AS Age, [Total] = COUNT(Gender)
+FROM ClientData
+WHERE status LIKE 'Attrited Customer' AND
+Gender LIKE 'M'
+GROUP BY status, Customer_Age, Gender
+ORDER BY Total DESC
+```  
+Results:  
+<img width="145" alt="image" src="https://user-images.githubusercontent.com/96785017/190904692-07798a60-6b83-4fa5-8d4b-42bbe0c23003.png">  
+Female Customers  
+```sql
+SELECT TOP 10 status AS Status, Customer_Age AS Age, [Total] = COUNT(Gender)
+FROM ClientData
+WHERE status LIKE 'Attrited Customer' AND
+Gender LIKE 'F'
+GROUP BY status, Customer_Age, Gender
+ORDER BY Total DESC
+```  
+Result:  
+<img width="147" alt="image" src="https://user-images.githubusercontent.com/96785017/190904597-4a910a3e-6394-4385-a91a-341d058268ad.png">  
+3. 
+
 
