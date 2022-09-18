@@ -55,7 +55,13 @@ Result:
 
 ## Visualization  
 1. Male Attrited Customers by Age  
-![image](https://user-images.githubusercontent.com/96785017/190914961-9143ce80-cf1f-4af5-a221-7279080de302.png)
+![image](https://user-images.githubusercontent.com/96785017/190914961-9143ce80-cf1f-4af5-a221-7279080de302.png)  
+43% of the attrited customers are male, and 5% of it are dominated by 43 years old male.  
+2. Female Attrited Customers by Age  
+![image](https://user-images.githubusercontent.com/96785017/190915098-e023e981-f498-4f46-afd2-5ed53b769020.png)  
+57% of the attrited customers are female, and 7% of it are dominated by 44 years old female.  
+3. Attrited Customers by Income Category
+
 
 
 
