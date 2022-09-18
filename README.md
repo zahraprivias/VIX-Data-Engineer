@@ -2,7 +2,11 @@
 Analyzing the amount of attrited customers in a credit card database using Microsoft SQL Server and Tableau.
 
 ## Table of content  
-
+  * [Business Objective](#business-objective)
+  * [Exploration](#exploration)
+  * [Visualization](#visualization)
+  * [Conclusion and Solution](#conclusion-and-solution)  
+  
 ## Business Objective  
 1. Identifying the characteristics of customers who are late in paying credit arrears  
 2. Visualizing the characteristics of customers who are late in paying credit arrears  
@@ -60,10 +64,13 @@ Result:
 2. Female Attrited Customers by Age  
 ![image](https://user-images.githubusercontent.com/96785017/190915098-e023e981-f498-4f46-afd2-5ed53b769020.png)  
 57% of the attrited customers are female, and 7% of it are dominated by 44 years old female.  
-3. Attrited Customers by Income Category
+3. Attrited Customers by Income Category  
+![image](https://user-images.githubusercontent.com/96785017/190915761-9cad6d5a-962c-47a3-9843-fee9c6e31327.png)  
+37% of Attrited Customers has the income of less than $40 thousand.
 
-
-
+## Conclusion and Solution  
+1. **Income category and age** are some of the factors that can determine which customers will continue using credit loan.  
+2. Auto screening can be made during the condition in which a customer registers with the data of **income category less than $40 thousand and is around 43-52 years old**, they can be considered as a **customer profile with strong potential of being late in paying arrears**
 
 
 
