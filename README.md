@@ -53,7 +53,10 @@ ORDER BY [Total Customer] DESC
 Result:  
 <img width="161" alt="image" src="https://user-images.githubusercontent.com/96785017/190905092-a4c7447b-8b20-48c6-a8e4-b1c84a19527e.png">  
 
-## Visualization
+## Visualization  
+1. Male Attrited Customers by Age  
+![image](https://user-images.githubusercontent.com/96785017/190914961-9143ce80-cf1f-4af5-a221-7279080de302.png)
+
 
 
 
